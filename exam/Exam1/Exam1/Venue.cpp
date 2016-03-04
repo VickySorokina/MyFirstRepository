@@ -38,7 +38,7 @@ Event Venue::findEvent(int time) const{ //finds an event given time
 	}
 	return Event(); //otherwise returns empty event
 }
-
+ 
 Event Venue::findEvent(string name) const{ //finds an event given name
 	for (int i = 0; i <= numEvents; i++){ //from existing events
 		if (scheduledEvents[i].getTitle() == name)

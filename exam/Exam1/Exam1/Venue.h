@@ -17,4 +17,4 @@ public:
 	Event findEvent(int time) const; //finds an event after its time and returns it
 	Event findEvent(string name) const; //finds an event after its title and returns it
 };
-#endif
+#endif 

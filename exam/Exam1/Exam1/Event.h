@@ -22,4 +22,4 @@ public:
 	void setTime(int t); //changes time of the event
 	void setTitle(string name); //changes name of the event
 };
-#endif
+#endif 

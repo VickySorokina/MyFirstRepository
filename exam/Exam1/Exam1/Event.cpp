@@ -28,7 +28,7 @@ string Event::getTitle() const{ //returns title of an event
 void Event::setTime(int t){ //sets time of an event
 	Time = t;
 }
-
+ 
 void Event::setTitle(string name){ //sets title of an event
 	Title = name;
 }
